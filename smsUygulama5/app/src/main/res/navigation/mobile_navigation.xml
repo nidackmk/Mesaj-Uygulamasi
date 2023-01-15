@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_mesaj_gonder">
+
+    <fragment
+        android:id="@+id/nav_mesaj_gonder"
+        android:name="com.example.smsuygulama5.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_gruba_uye_ekle"
+        android:name="com.example.smsuygulama5.ui.gallery.GalleryFragment"
+        android:label="@string/menu_gallery"
+        tools:layout="@layout/fragment_gallery" />
+
+    <fragment
+        android:id="@+id/nav_mesajolustur"
+        android:name="com.example.smsuygulama5.ui.slideshow.SlideshowFragment"
+        android:label="@string/menu_slideshow"
+        tools:layout="@layout/fragment_slideshow" />
+    <fragment
+        android:id="@+id/nav_cikis"
+        android:name="com.example.smsuygulama5.cikis"
+        android:label="fragment_cikis"
+        tools:layout="@layout/fragment_cikis" />
+    <fragment
+        android:id="@+id/nav_grup_olustur2"
+        android:name="com.example.smsuygulama5.GrupOlustur"
+        android:label="fragment_grup_olustur2"
+        tools:layout="@layout/fragment_grup_olustur2" />
+</navigation>
